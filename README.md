@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 # mnistData
 <h2> Simple MNIST NN.</h2>
+<h4>Located in commit : 1fec206b35fc8dce8ed8676e5355df28b3dc3fab </h4>
 <p> This model achieved a little over 90% accuracy (not good enough in this context) , it contains 10 neurons with one output layer ths model did not consider that we had images, only considered a long list of vectors representing an image.</p>
 
 <h2> Deed NN MNIST.</h2>
