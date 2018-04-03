@@ -67,7 +67,7 @@ y_conv = tf.matmul(h_fullyConnected_drop, Weight_fullyConnected_2) + Bias_fullyC
 cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=y_conv, labels = yBar))
 
 #loss optimization
-train_step = tf.train.AdadeltaOptimizer(1e-4).minimize(cross_entropy)
+train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy)
 
 #correct
 correct_prediction = tf.equal(tf.argmax(y_conv,1),tf.arg_max(yBar,1))
