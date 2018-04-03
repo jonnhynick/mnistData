@@ -7,4 +7,4 @@
 <h2> Deed NN MNIST.</h2>
 <h4> deepMNIST.py </h4>
 <p> images are 28 x 28 and we can insert [Convolution NN](http://ufldl.stanford.edu/tutorial/supervised/ConvolutionalNeuralNetwork/) to learn features of images by "scanning" the image through small filters. </p>
-</html>
+</html> by using Adams Optimizer I am getting 98.050% accuracy.
