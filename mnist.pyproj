@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>96e67fa1-62aa-4318-8acf-20e4aa19226d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mnist.py</StartupFile>
+    <StartupFile>deepMNIST.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="deepMNIST.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mnist.py">
       <SubType>Code</SubType>
     </Compile>
